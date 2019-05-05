@@ -460,13 +460,13 @@ def giris_karsilama():
     print("_"*125)
     print(karsilama_yazisi)
     time.sleep(2)
-    cevap1 = str(input("\n\tPis Yedili oynamayı biliyor musun?\n<Evet/Hayır>\n")).lower()
-    if cevap1 == "evet":
-        print("\n\tHemen başlayalım!")
-        time.sleep(2)
-    else:
-        print("\n\tplaceholder text")
-        time.sleep(2)
+    # cevap1 = str(input("\n\tPis Yedili oynamayı biliyor musun?\n<Evet/Hayır>\n")).lower()
+    # if cevap1 == "evet":
+    #     print("\n\tHemen başlayalım!")
+    #     time.sleep(2)
+    # else:
+    #     print("\n\tplaceholder text")
+    #     time.sleep(2)
     cevap2 = str(input("\n\tÖncelikle, adını aşağıya yazar mısın?\n"))
     print("\n\tTeşekkürler {}".format(cevap2))
     time.sleep(2)
@@ -476,7 +476,7 @@ def giris_karsilama():
     
 
 def oyunabasla():
-    dosya = open("C:\My folder for Visual Studio Code\cardgame\cardgame_game_tutorial_ciktilari\\v2_normalgame3.txt","w+")
+    # dosya = open("C:\My folder for Visual Studio Code\cardgame\cardgame_game_tutorial_ciktilari\\v2_normalgame3.txt","w+")
 
     global orta
     orta = Orta.baslangic()
@@ -689,8 +689,9 @@ def oyunabasla():
 
     duz()
     
-    dosya.writelines(oyun_raporu)
-    dosya.close()
+    # dosya.writelines(oyun_raporu)
+    # dosya.close()
 
 
-oyunabasla()
+if __name__ == "__main__":
+    oyunabasla()

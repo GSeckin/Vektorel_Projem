@@ -487,7 +487,7 @@ def giris_karsilama():
     
 
 def oyunabasla():
-    dosya = open("C:\My folder for Visual Studio Code\cardgame\cardgame_game_tutorial_ciktilari\\tutorial3.txt","w+")
+    # dosya = open("C:\My folder for Visual Studio Code\cardgame\cardgame_game_tutorial_ciktilari\\tutorial3.txt","w+")
 
     global orta
     orta = Orta.baslangic()
@@ -692,8 +692,8 @@ def oyunabasla():
 
     duz()
     
-    dosya.writelines(oyun_raporu)
-    dosya.close()
+    # dosya.writelines(oyun_raporu)
+    # dosya.close()
 
-
-oyunabasla()
+if __name__ == "__main__":
+    oyunabasla()

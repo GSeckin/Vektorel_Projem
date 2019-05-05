@@ -58,14 +58,14 @@ def giris_karsilama2():
 
     k1 = 0
     while k1 < 1:
-        cevap2 = str(input("\n\tNormal oyuna başlamak istersin yoksa tutorial'a mı?\n\t <normal oyun/tutorial>"))
+        cevap2 = str(input("\n\tNormal oyuna başlamak istersin yoksa tutorial'a mı?\n\t <normal oyun/tutorial>\n"))
         if cevap2 == "tutorial":
             k1 = 1
-            cg_tutorial()
+            cg_tutorial.oyunabasla()
 
         elif cevap2 == "normal oyun":
             k1 = 1
-            cg_normal()
+            cg_normal.oyunabasla()
         
         else:
             print("\n\tGeçerli bir cevap vermedin")

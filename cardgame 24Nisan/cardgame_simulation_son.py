@@ -189,8 +189,8 @@ class Tur:
 
 
 def oyunabasla():
-    dosya = open("C:\My folder for Visual Studio Code\cardgame\cardgame_simulation_fulloyun_ciktilari\simulasyon14.txt","w+")
-    sys.stdout = dosya
+    #dosya = open("C:\My folder for Visual Studio Code\cardgame\cardgame_simulation_fulloyun_ciktilari\simulasyon14.txt","w+")
+    #sys.stdout = dosya
 
     global orta
     orta = Orta.baslangic()
@@ -314,7 +314,7 @@ def oyunabasla():
     listabc = [k.playername for k in list1]
 
     duz()
-    dosya.close()
+    #dosya.close()
 
 
 oyunabasla()

@@ -18,9 +18,8 @@ Branch: master
   
 Branch: Gui Deneme
   
-    _folder: deste_taslak1
-    Grafik arayüzde kullanılan oyun kağıdı fotoğrafları (taslak fotoğraflar)
-    _file: Arrow_down.png, Arrow_up.png, card_backside_27percent.jpg, card_hand_tiltedx3_27percent.jpg: Grafik arayüzde kullanılan fotoğraflar
+    _folder: deste_taslak1: Grafik arayüzde kullanılan oyun kağıdı fotoğrafları (taslak fotoğraflar)
+    _file: Arrow_down.png, Arrow_up.png, card_backside_27percent.jpg, card_hand_tiltedx3_27percent.jpg: Grafik arayüzde kullanılan   fotoğraflar
     _file: cardgame_Table6.ui: Ui
     _file: cgame_with_ui_v2.py: Oyunu grafik arayüzle birleştirme çalışması.(Fotoğrafların görünmesi için 47.,744. ve 824. satırlarda klasörün adresinin güncellenmesi lazım) 
   
